@@ -1,0 +1,11 @@
+<div class="container">
+    <div *ngIf="isMovieSelected; else elseBlock">
+        <img class="movie-img-selected" src="{{movieData.ImageSource}}">
+        <div class="movie-text-selected">{{movieData.Title}}</div>
+    </div>
+    <ng-template #elseBlock>
+        <img class="movie-img" src="{{movieData.ImageSource}}">
+        <div class="movie-text">{{movieData.Title}}</div>
+    </ng-template>
+</div>
+

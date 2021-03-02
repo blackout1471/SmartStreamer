@@ -1,0 +1,22 @@
+/* Css variables for theme */
+:root {
+	
+	/* Primary colors for the theme */
+	--primary-color: 			#0f1219; /* blue grayish */
+	--secondary-color:			#00cc99; /* green blueish */
+	--tertiary-color:			#ffffff; /* white */
+	--quaternary-color:			#606068; /* gray */
+	
+	/* primary colors hover */
+	/* These have not been chosen yet */
+	--primary-hover-color:		#ffffff; /* white */
+	--secondary-hover-color:	#0f4c47; /* dark blue ish */
+	--tertiary-hover-color:		#4c5b5e; /* grayish white */
+	--quaternary-hover-color:	#ffffff; /* white */
+
+	/* Text Sizes */
+	--xl-textsize: 				25px;
+	--l-textsize: 				20px;
+	--m-textsize: 				14px;
+	--s-textsize: 				8px;
+}

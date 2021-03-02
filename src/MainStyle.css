@@ -1,0 +1,36 @@
+/*
+    This file is the main style file
+    This css file styles all the entities, and decides how the application should look.
+*/
+
+body {
+    background-color: var(--primary-color) !important;
+}
+
+.menu-button {
+    background-color: var(--primary-color);
+    font-size: var(--m-textsize);
+    color: var(--tertiary-color);
+}
+
+.menu-button:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.primary-button {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: var(--l-textsize);
+    padding: 10px 20px;
+}
+
+.primary-button:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.title {
+    font-size: var(--xl-textsize);
+    color: var(--secondary-color);
+}
